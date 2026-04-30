@@ -8,7 +8,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       price: "",
       description: "",
       imageUrl: "",
-      ManufacturerName: "",
+      manufacturerName: "",
     }
   );
 
