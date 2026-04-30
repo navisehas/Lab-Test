@@ -27,6 +27,11 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
+    manufacturerName: {
+      type: String,
+      required: [true, "Manufacturer name is required"],
+      trim: true,
+    },
   },
   { timestamps: true }
 );
